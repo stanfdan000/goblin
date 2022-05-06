@@ -2,11 +2,11 @@
 body {
     /* feel free to update these css variables for a quick theme */
     
-    --color1: white;
-    --color2: white;
-    --color3: white;
-    --color4: white;
-    --color5: white;
+    --color1: rgb(255, 255, 255);
+    --color2: rgb(255, 253, 253);
+    --color3: rgb(37, 5, 245);
+    --color4: rgb(244, 242, 242);
+    --color5: rgb(243, 6, 6);
     
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
         
@@ -29,7 +29,10 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
+    background-image: url('../assets/starcraft.jpg');
+    
 }
+
 
 main {
     display: flex;
@@ -37,12 +40,15 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
-    height: 500px;
+    height: 100%;
+    
 }
 
 section {
     background-color: var(--color5);
-    max-width: 80%;
+    width: 500px;
+    height: 50%;
+    size: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;

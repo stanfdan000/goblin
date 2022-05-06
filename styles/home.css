@@ -16,10 +16,15 @@
 
 #goblin-stats {
 display: flex;
-flex-direction: row;
+flex-direction: column-reverse;
 }
 
 #player-stats {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-section {
     display: flex;
     flex-direction: row;
 }
