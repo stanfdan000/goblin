@@ -2,7 +2,7 @@
 #player-img {
     height: 250px;
     display: flex;
-    flex-direction: left;
+    flex-direction: row;
     border-radius: 25%;
 }
 
@@ -10,13 +10,17 @@
     height: 250px;
     display: flex;
     flex-direction: row;
-    border-radius: 25%;
+    border-radius: 35%;
    
 }
 
 #goblin-stats {
 display: flex;
-flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-evenly
 }
 
 #player-stats {
@@ -27,4 +31,5 @@ flex-direction: column-reverse;
 .main-section {
     display: flex;
     flex-direction: row;
+    width: 75%;
 }
