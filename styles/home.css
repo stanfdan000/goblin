@@ -1,1 +1,35 @@
 /* add home page styles here */
+#player-img {
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25%;
+}
+
+#goblin-img {
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 35%;
+   
+}
+
+#goblin-stats {
+display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-evenly
+}
+
+#player-stats {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+}
