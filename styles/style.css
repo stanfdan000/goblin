@@ -33,10 +33,11 @@ body {
 
 main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    height: 500px;
 }
 
 section {
@@ -65,6 +66,8 @@ header {
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+    display: flex;
+    -ms-flex-align: center;
 }
 
 .gutter-right {
