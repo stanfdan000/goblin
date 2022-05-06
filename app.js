@@ -9,7 +9,6 @@
 import { renderGoblin } from './render.utils.js';
 const destroyedEl = document.getElementById('destroyed');
 const playerHP = document.getElementById('player-hitPoints');
-const playerImg = document.querySelector('player-img');
 const form1 = document.querySelector('form');
 const goblinsEl = document.getElementById('goblins');
 
@@ -80,11 +79,7 @@ function goblinClickHandler(goblin) {
 
 
 
-//playerHP.textContent = playerHitPoints;
-//destroyedEl.textContent = defeatedGoblinsCount;
 
-//const healthEl = document.getElementById(`goblin-hp-${goblinData.id}`);
-//healthEl.textContent = goblinData.hp < 0 ? 0 : goblinData.hp;
 
 
 
